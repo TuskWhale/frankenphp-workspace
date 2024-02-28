@@ -3,7 +3,7 @@ description: Builds and pushes Docker image
 
 runs:
   using: 'docker'
-  image: '../../../Dockerfile'
+  image: '../Dockerfile'
 
 on:
   workflow_call:
