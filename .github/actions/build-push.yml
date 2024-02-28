@@ -3,9 +3,8 @@ on:
   workflow_call:
 
 jobs:
-  setup:
+  buid-and-push-versions:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'workflow_dispatch' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
