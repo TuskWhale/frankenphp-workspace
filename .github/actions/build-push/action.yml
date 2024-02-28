@@ -3,14 +3,13 @@ description: Builds and pushes Docker image
 
 runs:
   using: 'docker'
-  image: './Dockerfile'
+  image: 'ubuntu-latest'
 
 on:
   workflow_call:
 
 jobs:
   buiLd-and-push-versions:
-    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
