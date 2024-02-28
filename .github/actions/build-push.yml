@@ -3,7 +3,7 @@ on:
   workflow_call:
 
 jobs:
-  buid-and-push-versions:
+  buiLd-and-push-versions:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
