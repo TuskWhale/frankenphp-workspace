@@ -15,5 +15,5 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Build and push
-        uses: ./.github/actions/build-push.yml
+
+      - uses: .github/actions/build-push.yml
