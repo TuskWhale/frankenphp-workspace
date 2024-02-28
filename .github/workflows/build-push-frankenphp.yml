@@ -1,6 +1,4 @@
-name: "Backend: DEV PHP container"
-
-# The versions of PHP and NGINX on this file are referenced by env vars set in the repository
+name: "FrankenPHP Build and Push"
 
 on:
   # Run jobs manually in GitHub's UI
