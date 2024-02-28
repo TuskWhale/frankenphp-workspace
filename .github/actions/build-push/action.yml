@@ -3,7 +3,7 @@ description: Builds and pushes Docker image
 
 runs:
   using: 'docker'
-  image: 'ubuntu-latest'
+  image: 'ubuntu:latest'
 
 on:
   workflow_call:
