@@ -1,4 +1,10 @@
 name: Build and push Docker image
+description: Builds and pushes Docker image
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
 on:
   workflow_call:
 
